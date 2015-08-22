@@ -234,7 +234,6 @@ nav a#pull {
   position: relative;
   float: left;
   width: 100%;
-  height: 100%;
 }
 .callbacks {
   position: relative;
@@ -440,7 +439,6 @@ nav a#pull {
 .big-btns{
 	margin: 1.5em 2em;
 	display: block;
-	padding-bottom: 1em;
 }
 .big-btns a{
 	display: inline-block;
@@ -560,7 +558,7 @@ span.second{
 /*----screen-shot-gallery----*/
 .screen-shot-gallery{
 	background:#FAFAFA;
-	padding:0em 0em 3em 0em;
+	padding:3em 0;
 }
 /*-----*/
 .show-reel{
@@ -586,7 +584,7 @@ span.second{
 /*--- team ---*/
 .team{
 	background: #F5F5F5;
-	padding: 2em 0 2em;
+	padding: 2em 0 5em;
 }
 .team-member-info{
 	position:relative;
@@ -600,9 +598,9 @@ span.second{
 	background: #F8E72B;
 	padding: 2em 1em;
 }
-/*.team-member-info:hover label.team-member-caption{
+.team-member-info:hover label.team-member-caption{
 	display:block;
-}*/
+}
 .team-member-info img.member-pic{
 	width:100%;
 }
@@ -886,15 +884,6 @@ p.copy a:hover{
 		margin-top:15em;
 	}
 }
-
-@media (max-width:855px){
-	.divice-demo img{
-		visibility: hidden;
-	}
-	
-
-}
-
 /*-----768px-mediaquries----*/
 @media (max-width:768px){
 	.divice-demo img{
@@ -942,7 +931,6 @@ p.copy a:hover{
 		border: 2px solid #ECF0F1;
 		padding: 0.5em 0.8em 0.5em 0.8em;
 		font-size: 0.8em;
-
 	}
 	.callbacks_tabs a:after {
 		height: 10px;
@@ -1052,15 +1040,12 @@ p.copy a:hover{
 	.big-btns {
 		margin: 0.8em 0em;
 		display: block;
-		padding-bottom: 1em;
 	}
 	.show-reel h5 {
 		padding: 3em 0;
 		font-size:1.8em;
 	}
 }
-
-
 /*-----480px-mediaquries----*/
 @media (max-width:480px){
 	.divice-demo img{
@@ -1142,7 +1127,6 @@ p.copy a:hover{
 	.big-btns {
 		margin: 0.5em 0em;
 		display: block;
-		padding-bottom: 1em;
 	}
 	.show-reel h5 {
 		padding: 3em 0;
@@ -1246,7 +1230,6 @@ p.copy a:hover{
 	.big-btns {
 		margin: 0em 0em;
 		display: block;
-		padding-bottom: 1em;
 	}
 	.show-reel h5 {
 		padding: 2em 0;
@@ -1266,7 +1249,7 @@ p.copy a:hover{
 		left: 4%;
 	}
 	.header-section {
-		padding: 0 0 0 0;
+		padding: 0 0 2em 0;
 		background: #F9E514;
 	}
 	.slide-text ul{
@@ -1289,9 +1272,7 @@ p.copy a:hover{
 	}
 }
 
-.screen-shot-gallery {
-	padding:0em 0em 3em 0em;
-}
+
 .biztitle {
 	text-align: center;
 }
