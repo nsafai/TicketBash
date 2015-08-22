@@ -1,7 +1,7 @@
 html, body{
     font-family: 'Open Sans', sans-serif;
     font-size: 100%;
-    background-color: #FFF;
+    background-color: #ECF0F1;
 }
 body a{
 	transition:0.5s all;
@@ -559,7 +559,7 @@ span.second{
 }
 /*----screen-shot-gallery----*/
 .screen-shot-gallery{
-	background:#FAFAFA;
+	background:#ECF0F1;
 	padding:0em 0em 3em 0em;
 }
 /*-----*/
@@ -585,7 +585,7 @@ span.second{
 }
 /*--- team ---*/
 .team{
-	background: #F5F5F5;
+	background: #e2e5e7;
 	padding: 2em 0 2em;
 }
 .team-member-info{
