@@ -75,7 +75,6 @@ h3 {
 }
 
 .appstorebadge {
-
 	padding-bottom: 10%;
 }
 
@@ -190,11 +189,14 @@ ul.horizontal-list li {
 		text-align: left;
 	}
 	h1 {
-		padding-bottom: 0.5em;
+		padding-bottom: 0.2em;
+		padding-top: 0;
+		margin-top: -0.5em;
 	}
 	.pitch {
 		text-align: center;
 		margin: 0;
+
 		padding: 0 1em;
 	}
 	nav li {
