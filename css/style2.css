@@ -14,7 +14,7 @@ nav li {
 
 .top-nav {
 	text-align: right;
-	margin-right: 3%;
+	margin-right: 2%;
 	padding-top: 0.02%;
 }
 .top-nav ul li.active a,
@@ -66,6 +66,8 @@ h2 {
 
 .appstorebadge {
 
+	padding-bottom: 10%;
+
 }
 
 .logo {
@@ -80,26 +82,51 @@ h2 {
 	max-height: 100%;
 }
 
-.gallery {
-	clear: both;
+.gallery h3 {
+	padding-top: 0.5em;
 	text-align: center;
-	background-color:#ECF0F1; 
 }
 
-.screenshots {
-	clear: both;
-	max-height: 10em;
-	max-width: 5.62em;
+.images-container {
+	text-align: center;
+}
+
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+ul.horizontal-list {
+	/*min-width: 696px;*/
+	list-style: none;
+	padding-top: 1.5em;
+	margin-left: -40px;
+	padding-bottom: 3em;
+}
+
+ul.horizontal-list li {
+	display: inline;
+}
+
+.screenshot {
+	height: 20em;
+}
+
+.team h3 {
+	text-align: center;
 }
 
 .team {
-	clear: both;
+	/*clear: both;*/
+	width: 100%;
 	background-color: #E0E3E5;
 	text-align: center;
 }
 
 .contact {
 	clear: both;
+	padding-top: 1%;
+	padding-bottom: 1.5%;
 	background-color:#ECF0F1; 
 	text-align: center;
 }
@@ -111,10 +138,10 @@ h2 {
 @media (max-width:820px){
 
 	.logo {
-		visibility: hidden;
+		display: none;
 	}
 	.pitch {
-		margin-bottom: -20%
+		/*margin-bottom: -10%*/
 	}
 }
 
@@ -124,15 +151,15 @@ h2 {
 		text-align: center;
 		margin: 0;
 		padding: 0 1em;
-		margin-bottom: -40%;
-		margin-top: -10%;
+		/*margin-bottom: -40%;*/
+		/*margin-top: -10%;*/
 	}
 	.header li {
 		text-align: left;
 	}
 
 	nav li {
-		visibility: hidden;
+		display: none;
 	}
 }
 
@@ -144,6 +171,6 @@ h2 {
 		padding-right: 1.5em;
 	}
 	.pitch {
-		margin-bottom: -50%;
+		/*margin-bottom: -50%;*/
 	}
 }
