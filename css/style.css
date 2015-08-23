@@ -77,7 +77,10 @@ h3 {
 .appstorebadge {
 
 	padding-bottom: 10%;
+}
 
+.appstorebadge img {
+	width: 10em;
 }
 
 .logo {
@@ -166,7 +169,7 @@ ul.horizontal-list li {
 	font-weight: 500;
 }
 
-@media (max-width:900px){
+@media screen and (max-width:900px){
 
 	.logo {
 		display: none;
@@ -174,30 +177,45 @@ ul.horizontal-list li {
 
 }
 
-@media (max-width:500px){
-
+@media screen and (max-width: 63.5em) {
+	/*1000px? YES!*/
+	.logo {
+		display: none;
+	}
+	.header li {
+		padding-right: 1.5em;
+		text-align: left;
+	}
+	h1 {
+		padding-bottom: 0.5em;
+	}
 	.pitch {
 		text-align: center;
 		margin: 0;
 		padding: 0 1em;
-		/*margin-bottom: -40%;*/
-		/*margin-top: -10%;*/
 	}
-	.header li {
-		text-align: left;
-	}
-
 	nav li {
 		display: none;
 	}
+	.appstorebadge img {
+		width: 20em;
+	}
+	ul.horizontal-list li {
+		display: block;
+		padding-bottom: 1em;
+	}
+
+	.screenshot {
+	width: 40em;
+	height: 80em;
+	}
 }
 
-@media (max-width:320px){
+@media screen and (max-width:320px){
 	.header li {
 		margin-left: -1.5em;
 		text-align: center;
 		list-style: inside;
-		padding-right: 1.5em;
 	}
 	.pitch {
 		/*margin-bottom: -50%;*/
