@@ -210,14 +210,29 @@ ul.horizontal-list li {
 	}
 
 	.screenshot {
-	width: 30em;
-	height: 52.8876em;
+		width: 30em;
+		height: 52.8876em;
 	}
 	.subtitle {
 		padding-bottom: 0.25em;
 	}
 }
 
+@media screen and (max-width: 50em) and (orientation: portrait) {
+	.screenshot {
+		width: 20em;
+		height: 35.2584em;
+	}
+
+}
+
+@media screen and (max-width: 30em) and (orientation: portrait) {
+	.screenshot {
+		width: 15em;
+		height: 26.4438em;
+	}
+
+}
 @media screen and (max-width:320px){
 	.header li {
 		margin-left: -1.5em;
