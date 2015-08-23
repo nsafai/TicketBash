@@ -1,6 +1,6 @@
 html, body{
     font-family: 'Open Sans', Helvetica, sans-serif;
-    font-size: 100%;
+    font-size: 1em;
     background-color: #ECF0F1;
     width: 100%;
     margin: 0;
@@ -179,6 +179,9 @@ ul.horizontal-list li {
 
 @media screen and (max-width: 63.5em) {
 	/*1000px? YES!*/
+	body {
+		font-size: 1.5em;
+	}
 	.logo {
 		display: none;
 	}
@@ -198,6 +201,7 @@ ul.horizontal-list li {
 		display: none;
 	}
 	.appstorebadge img {
+		padding-top: 1.5em;
 		width: 20em;
 	}
 	ul.horizontal-list li {
@@ -206,8 +210,8 @@ ul.horizontal-list li {
 	}
 
 	.screenshot {
-	width: 40em;
-	height: 70.8em;
+	width: 36em;
+	height: 63.72em;
 	}
 }
 
@@ -216,8 +220,5 @@ ul.horizontal-list li {
 		margin-left: -1.5em;
 		text-align: center;
 		list-style: inside;
-	}
-	.pitch {
-		/*margin-bottom: -50%;*/
 	}
 }
