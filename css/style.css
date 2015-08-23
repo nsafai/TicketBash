@@ -189,7 +189,7 @@ ul.horizontal-list li {
 		text-align: left;
 	}
 	h1 {
-		padding-bottom: 0.2em;
+		padding-bottom: 0.35em;
 		padding-top: 0;
 		margin-top: -0.5em;
 	}
@@ -214,6 +214,9 @@ ul.horizontal-list li {
 	.screenshot {
 	width: 36em;
 	height: 63.72em;
+	}
+	.subtitle {
+		padding-bottom: 0.25em;
 	}
 }
 
