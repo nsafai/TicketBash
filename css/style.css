@@ -2,6 +2,7 @@ html, body{
     font-family: 'Open Sans', Helvetica, sans-serif;
     font-size: 100%;
     background-color: #ECF0F1;
+    width: 100%
 }
 
 nav li {
@@ -80,12 +81,11 @@ h3 {
 
 .logo {
 	/*display: inline-block;*/
-	width: 35em;
-	height: 35em;
-	/*margin-left: 70%;*/
-	margin-top: -18.3em;
-	float: right;
-	margin-right: -15em;
+    width: 20em;
+    height: 35em;
+    /* margin-left: 70%; */
+    margin-top: -18.2em;
+    float: right;
 }
 
 .logo img {
