@@ -175,7 +175,7 @@ ul.horizontal-list li {
 
 }
 
-@media screen and (max-width: 63.5em) {
+@media screen and (max-width: 63.5em) and (orientation: portrait) {
 	/*1000px? YES!*/
 	body {
 		font-size: 1.5em;
@@ -195,7 +195,6 @@ ul.horizontal-list li {
 	.pitch {
 		text-align: center;
 		margin: 0;
-
 		padding: 0 1em;
 	}
 	nav li {
@@ -211,8 +210,8 @@ ul.horizontal-list li {
 	}
 
 	.screenshot {
-	width: 36em;
-	height: 63.72em;
+	width: 30em;
+	height: 52.8876em;
 	}
 	.subtitle {
 		padding-bottom: 0.25em;
