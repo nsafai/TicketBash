@@ -138,11 +138,11 @@ ul.horizontal-list li {
 	height: 15em;
 	width: auto;
 	background-position: center;
-	}
+	margin-top: 1em;
+}
 
 .profilepicitem {
-	/*background-image: url("../img/adamprofile.jpg");*/
-`
+
 }
 .profilepicitem img{
 	background-size: 100%;
@@ -193,7 +193,7 @@ ul.horizontal-list li {
 }
 
 @media screen and (max-width:70em){
-
+/*fix for android*/
 	.logo {
 		display: none;
 	}
@@ -235,8 +235,8 @@ ul.horizontal-list li {
 	}
 
 	.screenshot {
-		width: 30em;
-		height: 52.8876em;
+		width: auto;
+		height: 40em;
 	}
 	.subtitle {
 		padding-bottom: 0.25em;
@@ -245,16 +245,16 @@ ul.horizontal-list li {
 
 @media screen and (max-width: 50em) and (orientation: portrait) {
 	.screenshot {
-		width: 20em;
-		height: 35.2584em;
+		width: auto;
+		height: 27em;
 	}
 
 }
 
 @media screen and (max-width: 30em) and (orientation: portrait) {
 	.screenshot {
-		width: 15em;
-		height: 26.4438em;
+		width: auto;
+		height: 17em;
 	}
 
 }
