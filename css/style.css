@@ -1,5 +1,5 @@
 html, body{
-    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-family: 'Open Sans', Avenir, Helvetica, sans-serif;
     font-size: 1em;
     background-color: #ECF0F1;
     width: 100%;
@@ -11,7 +11,6 @@ nav li {
 	text-transform: uppercase;
 	font-size: 0.75em;
 	font-weight: 700;
-	/*position: relative;*/
 }
 
 .top-nav {
@@ -37,7 +36,6 @@ top-nav:after {
 
 .header{
 	background-color:#34495E;
-	/*display: inline-block;*/
 	width: 100%;
 }
 
@@ -50,7 +48,6 @@ top-nav:after {
 	color:#ECF0F1;
 	padding-top: 5%;
 	padding-left: 5%;
-	/*float: left;*/
 }
 
 .pitch p {
@@ -83,9 +80,7 @@ h3 {
 }
 
 .logo {
-	/*display: inline-block;*/
     width: 20em;
-    /* margin-left: 70%; */
     margin-top: -18.2em;
     float: right;
 }
@@ -114,7 +109,6 @@ h3 {
 }
 
 ul.horizontal-list {
-	/*min-width: 696px;*/
 	list-style: none;
 	padding-top: 0.5em;
 	margin-left: -40px;
@@ -135,19 +129,50 @@ ul.horizontal-list li {
 }
 
 .team {
-	/*clear: both;*/
 	width: 100%;
 	background-color: #E0E3E5;
 	text-align: center;
 }
 
 .profilepic {
-	height: 10em;
-	width: 10em;
-	padding: 0.5em 3em 1em 3em;
-	
-	border-radius: 50%
+	height: 15em;
+	width: auto;
+	background-position: center;
+	}
+
+.profilepicitem {
+	/*background-image: url("../img/adamprofile.jpg");*/
+`
 }
+.profilepicitem img{
+	background-size: 100%;
+/*	height: auto;
+	width: auto;*/
+}
+
+.profilepicitem img {
+	background-image: no-repeat;
+	background-position: center;
+}
+
+#nicolai, #adam {
+}
+
+#nicolai {
+	background-image: url("../img/nicolaiprofile.png");
+}
+
+#nicolai:hover {
+	background-image: url("../img/nicolaiprofilehover.png");
+}
+
+#adam {
+	background-image: url("../img/adamprofile.jpg");
+}
+#adam:hover {
+	background-image: url("../img/adamprofilehover.png");
+}
+
 
 .contact {
 	clear: both;
@@ -167,7 +192,7 @@ ul.horizontal-list li {
 	font-weight: 500;
 }
 
-@media screen and (max-width:900px){
+@media screen and (max-width:70em){
 
 	.logo {
 		display: none;
@@ -176,7 +201,7 @@ ul.horizontal-list li {
 }
 
 @media screen and (max-width: 63.5em) and (orientation: portrait) {
-	/*1000px? YES!*/
+	
 	body {
 		font-size: 1.5em;
 	}
