@@ -18,6 +18,7 @@ nav li {
 	margin-right: 2%;
 	padding-top: 0.02%;
 }
+
 .top-nav ul li.active a,
 .top-nav ul li a:hover{
 	color:#ECF0F1;
